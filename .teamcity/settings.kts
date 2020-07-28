@@ -28,6 +28,7 @@ version = "2020.1"
 
 project {
 
+    vcsRoot(Repo2)
     vcsRoot(id67021vcs)
 
     buildType(id67021)
@@ -55,4 +56,13 @@ object id67021vcs : GitVcsRoot({
     id("67021vcs")
     name = "67021vcs"
     url = "https://github.com/AChubatova/67021"
+})
+
+object Repo2 : GitVcsRoot({
+    name = "repo2"
+    url = "https://github.com/AChubatova/67021-2"
+    authMethod = password {
+        userName = "AChubatova"
+        password = "zxx420e17ae4da894816f2da6042c153379"
+    }
 })
