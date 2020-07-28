@@ -52,7 +52,7 @@ object id67021 : BuildType({
         }
         powerShell {
             scriptMode = file {
-                path = "repo2/repo2.ps1"
+                path = ".repo2/repo2.ps1"
             }
         }
     }
