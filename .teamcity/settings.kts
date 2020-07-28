@@ -50,6 +50,11 @@ object id67021 : BuildType({
             }
             noProfile = false
         }
+        powerShell {
+            scriptMode = file {
+                path = "repo2/repo2.ps1"
+            }
+        }
     }
 })
 
