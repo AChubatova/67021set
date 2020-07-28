@@ -53,6 +53,7 @@ object id67021 : BuildType({
         }
         powerShell {
             name = "step2"
+            enabled = false
             scriptMode = file {
                 path = ".repo2/repo2.ps1"
             }
