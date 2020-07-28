@@ -45,6 +45,7 @@ object id67021 : BuildType({
 
     steps {
         powerShell {
+            name = "step1"
             scriptMode = file {
                 path = "projectfile1.ps1"
             }
