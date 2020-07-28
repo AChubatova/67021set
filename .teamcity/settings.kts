@@ -40,6 +40,7 @@ object id67021 : BuildType({
 
     vcs {
         root(id67021vcs)
+        root(Repo2)
     }
 
     steps {
